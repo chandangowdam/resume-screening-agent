@@ -1,0 +1,14 @@
+Name:Priya Singh
+
+Skills:
+Python
+Flask
+HTML
+CSS
+MySQL
+
+Experince:
+1 years Web Developer
+
+Education:
+BE in Information Science

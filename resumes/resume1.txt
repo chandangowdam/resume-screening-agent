@@ -1,0 +1,17 @@
+Name:Rahul Sharma
+
+Skills:
+Python
+Django
+REST API
+HTML
+CSS
+JavaScript
+SQL
+Git
+
+Experince:
+2 years as Python Developer
+
+Education:
+BE in Computer Science

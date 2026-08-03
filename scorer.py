@@ -27,7 +27,7 @@ def calculate_similarity(job_description, resumes):
             [resume_embedding]
         )[0][0]
 
-        score = round(similarity * 100, 2)
+        score = float(round(similarity * 100, 2))
 
         results.append({
             "Candidate": file_name,
