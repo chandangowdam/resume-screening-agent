@@ -1,0 +1,21 @@
+Required Skills:
+-Python
+-Django
+-REST API
+-HTML
+-CSS
+-JavaScript
+-SQL
+-Git
+
+Experince:
+0-2years
+
+Education:
+Bacholer's Degree in Computer Science or releated field.
+
+Responsibilities:
+Develop web applications using Django.
+Work with REST APIs.
+Maintain SQL databases.
+Collaborate using Git.
