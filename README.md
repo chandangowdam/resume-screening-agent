@@ -144,3 +144,74 @@ resume-screening-agent|
           |--ranked_candidates.json
 |--SCORING_METHOD.md
 
+## Installation
+
+Clone repository:
+
+git clone <repository-url>
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+---
+
+## Running the Project
+
+Run:
+
+python app.py
+
+
+---
+
+## Scoring Method
+
+Candidate score is calculated based on:
+
+- Skills Match: 40%
+- Experience Match: 30%
+- Education Match: 20%
+- Keyword Similarity: 10%
+
+
+Detailed explanation is available in scoring_method.md
+
+
+---
+
+## Output Example
+
+The system generates:
+
+- ranked_candidates.csv
+- ranked_candidates.json
+
+
+Example:
+
+| Rank | Candidate | Score |
+|---|---|---|
+|1|Candidate A|92%|
+|2|Candidate B|86%|
+
+
+---
+
+## Future Improvements
+
+- Add LLM-based resume analysis
+- Add web interface
+- Deploy on cloud
+- Add database storage
+
+
+---
+
+## Author
+
+Chandan Gowda M
+
+Computer Science and Engineering
