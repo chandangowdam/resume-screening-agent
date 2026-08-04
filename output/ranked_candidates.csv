@@ -1,4 +1,4 @@
-Candidate,Score
-resume1.txt,81.33999633789062
-resume2.txt,67.95999908447266
-resume3.txt,49.41999816894531
+Candidate,File,Email,Phone,Score,Education,Experience,Matched Skills,Missing Skills,Reason,Recommendation,ATS Match
+Rahul Sharma,resume1.txt,rahulsharama@gmail.com,9874567272,66.55,BE,2 year,"Django, CSS, HTML, SQL, Python, Git, JavaScript, REST API",,Good match with some missing skills.,Shortlist,93.30999755859375
+Priya Singh,resume2.txt,priyasingh@gmail.com,9673285523,50.13,BCA,1 year,"HTML, CSS, Python","Django, Git, JavaScript, REST API, SQL",Low match. Candidate lacks several required skills.,Reject,58.779998779296875
+Ankit Kumar,resume3.txt,ankitkumar@gmail.com,9576428213,31.59,MCA,3 year,,"Django, CSS, HTML, Python, Git, JavaScript, REST API, SQL",Low match. Candidate lacks several required skills.,Reject,36.31999969482422

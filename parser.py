@@ -1,5 +1,6 @@
 import os
-import pdfplumber
+import re
+import fitz
 from docx import Document
 
 
@@ -10,13 +11,15 @@ def read_txt(file_path):
 
 
 def read_pdf(file_path):
-    """Read text from a PDF file."""
     text = ""
-    with pdfplumber.open(file_path) as pdf:
-        for page in pdf.pages:
-            page_text = page.extract_text()
-            if page_text:
-                text += page_text + "\n"
+
+    doc = fitz.open(file_path)
+
+    for page in doc:
+        text += page.get_text()
+
+    doc.close()
+
     return text
 
 
@@ -51,3 +54,29 @@ def load_resumes(folder_path):
 def load_job_description(jd_path):
     """Load the job description."""
     return read_txt(jd_path)
+
+
+def extract_name(text):
+    lines = text.split("\n")
+
+    for line in lines:
+        if line.lower().startswith("name:"):
+            return line.split(":", 1)[1].strip()
+
+    return "Unknown"
+
+
+def extract_email(text):
+    match = re.search(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}', text)
+    if match:
+        return match.group()
+    return "Not Found"
+
+def extract_phone(text):
+    phone = re.search(r'(\+91[\s-]?)?[6-9]\d{9}', text)
+
+    if phone:
+        return phone.group()
+
+    return "Not Found"
+

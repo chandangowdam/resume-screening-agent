@@ -1,14 +1,44 @@
 [
     {
-        "Candidate": "resume1.txt",
-        "Score": 81.33999633789062
+        "Candidate": "Rahul Sharma",
+        "File": "resume1.txt",
+        "Email": "rahulsharama@gmail.com",
+        "Phone": "9874567272",
+        "Score": 66.55,
+        "Education": "BE",
+        "Experience": "2 year",
+        "Matched Skills": "Django, CSS, HTML, SQL, Python, Git, JavaScript, REST API",
+        "Missing Skills": "",
+        "Reason": "Good match with some missing skills.",
+        "Recommendation": "Shortlist",
+        "ATS Match": 93.30999755859375
     },
     {
-        "Candidate": "resume2.txt",
-        "Score": 67.95999908447266
+        "Candidate": "Priya Singh",
+        "File": "resume2.txt",
+        "Email": "priyasingh@gmail.com",
+        "Phone": "9673285523",
+        "Score": 50.13,
+        "Education": "BCA",
+        "Experience": "1 year",
+        "Matched Skills": "HTML, CSS, Python",
+        "Missing Skills": "Django, Git, JavaScript, REST API, SQL",
+        "Reason": "Low match. Candidate lacks several required skills.",
+        "Recommendation": "Reject",
+        "ATS Match": 58.779998779296875
     },
     {
-        "Candidate": "resume3.txt",
-        "Score": 49.41999816894531
+        "Candidate": "Ankit Kumar",
+        "File": "resume3.txt",
+        "Email": "ankitkumar@gmail.com",
+        "Phone": "9576428213",
+        "Score": 31.59,
+        "Education": "MCA",
+        "Experience": "3 year",
+        "Matched Skills": "",
+        "Missing Skills": "Django, CSS, HTML, Python, Git, JavaScript, REST API, SQL",
+        "Reason": "Low match. Candidate lacks several required skills.",
+        "Recommendation": "Reject",
+        "ATS Match": 36.31999969482422
     }
 ]

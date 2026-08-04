@@ -26,8 +26,22 @@ def main():
     print("\n===== Resume Ranking =====")
 
     for i, candidate in enumerate(results, start=1):
-        print(f"{i}. {candidate['Candidate']} - {candidate['Score']}%")
-
+        print("\n----------------------------------")
+        print(f"Rank : {i}")
+        print(f"Candidate : {candidate['Candidate']}")
+        print(f"File : {candidate['File']}")
+        print(f"Score : {candidate['Score']}%")
+        print(f"Education : {candidate['Education']}")
+        print(f"Experience : {candidate['Experience']}")
+        print(f"Email : {candidate['Email']}")
+        print(f"Phone : {candidate['Phone']}")
+        print(f"Matched Skills : {candidate['Matched Skills']}")
+        print(f"Missing Skills : {candidate['Missing Skills']}")
+        print(f"Reason : {candidate['Reason']}")
+        print(f"Recommendation : {candidate['Recommendation']}")
+        print(f"Score : {candidate['Score']}")
+        print(f"ATS Match : {candidate['ATS Match']:.2f}%")
+        
     # Create output folder if not exists
     os.makedirs("output", exist_ok=True)
 
