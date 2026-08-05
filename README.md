@@ -97,6 +97,24 @@ The system uses Natural Language Processing (NLP) techniques to calculate resume
 
 ---
 
+## 📸 Application Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+### 📊 Resume Ranking Results
+
+![Results](screenshots/results.png)
+
+---
+
+### 👤 Candidate Details
+
+![Candidate Details](screenshots/candidate.png)
+
 ## Technology Stack
 
 ### Backend

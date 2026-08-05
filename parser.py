@@ -56,15 +56,29 @@ def load_job_description(jd_path):
     return read_txt(jd_path)
 
 
+import re
+
 def extract_name(text):
     lines = text.split("\n")
 
+    # Method 1: Look for "Name:"
     for line in lines:
         if line.lower().startswith("name:"):
             return line.split(":", 1)[1].strip()
 
-    return "Unknown"
+    # Method 2: Use the first non-empty line if it looks like a name
+    for line in lines:
+        line = line.strip()
 
+        if (
+            line
+            and "@" not in line
+            and not any(char.isdigit() for char in line)
+            and len(line.split()) <= 4
+        ):
+            return line
+
+    return "Unknown"
 
 def extract_email(text):
     match = re.search(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}', text)

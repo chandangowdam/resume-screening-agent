@@ -1,0 +1,26 @@
+Name: Sandeep Rao
+Email: sandeep.rao31@email.com
+Phone: +91 9345678123
+Skills:
+Python
+Django
+FastAPI
+SQL
+PostgreSQL
+HTML
+CSS
+JavaScript
+Git
+Docker
+Experience:
+Software Developer – NextGen Technologies Pvt. Ltd.
+July 2024 – Present (2 Years)
+Developed RESTful APIs using Django and FastAPI.
+Designed and optimized PostgreSQL databases.
+Built responsive web interfaces with HTML, CSS, and JavaScript.
+Used Git for version control and Docker for application deployment.
+Fixed bugs and improved application performance.
+Education:
+B.Tech in Computer Science and Engineering
+Jawaharlal Nehru Technological University (JNTU)
+2024

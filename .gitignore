@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Python cache
+_pycache_/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# Uploaded files (generated at runtime)
+uploads/
+
+# Output files (optional)
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
