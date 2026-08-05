@@ -1,4 +1,12 @@
-[6:16 pm, 04/08/2026] chandangowdam910: # Resume Screening Agent - Scoring Method
+Resume Screening Agent - Scoring Method
+
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+
+![NLP](https://img.shields.io/badge/NLP-Sentence%20Transformers-green)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Overview
 The Resume Screening Agent ranks resumes based on similarity with the Job Description.
